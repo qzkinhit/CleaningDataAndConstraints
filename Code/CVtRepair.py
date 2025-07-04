@@ -171,7 +171,7 @@ if __name__ == '__main__':
     I = pd.read_csv("../DataSample/IDF-1w-5%.csv", header = None)
 
     # Call the algorithm
-    res = addCons(C,I,col=2,theta=3,lamb=-0.5,maxp=2)
+    res = addCons(C, I, col=2, theta=3, lamb=-0.5, maxp=2)
 
     # Print results
     print("result: ")
